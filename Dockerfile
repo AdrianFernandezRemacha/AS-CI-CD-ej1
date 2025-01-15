@@ -13,4 +13,4 @@ COPY *.py /code/
 # RUN pip install --no-cache-dir -r requirements.txt
 
 # Comando por defecto para ejecutar la aplicación (modifica según tu código)
-# CMD ["python", "tu_archivo_principal.py"]
+CMD ["python", "test.py"]
