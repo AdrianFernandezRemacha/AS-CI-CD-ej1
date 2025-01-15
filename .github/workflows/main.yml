@@ -26,6 +26,6 @@ jobs:
     - name: Build Docker image
       uses: docker/build-push-action@v6
       with:
-        context: /AS-CI-CD-ej1
+        context: .
         file: Dockerfile
         push: false
